@@ -37,6 +37,7 @@ GR_PYTHON_INSTALL(
     aistechsat_2_deframer.py
     ao40_fec_deframer.py
     ao40_uncoded_deframer.py
+    apogee_deframer.py
     astrocast_fx25_deframer.py
     ax100_deframer.py
     ax25_deframer.py

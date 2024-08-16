@@ -23,6 +23,7 @@ from .aausat4_deframer import aausat4_deframer
 from .aistechsat_2_deframer import aistechsat_2_deframer
 from .ao40_fec_deframer import ao40_fec_deframer
 from .ao40_uncoded_deframer import ao40_uncoded_deframer
+from .apogee_deframer import apogee_deframer
 from .astrocast_fx25_deframer import astrocast_fx25_deframer
 from .ax100_deframer import ax100_deframer
 from .ax25_deframer import ax25_deframer

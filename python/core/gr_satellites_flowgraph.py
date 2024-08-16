@@ -471,6 +471,7 @@ class gr_satellites_flowgraph(gr.hier_block2):
             syncword='light-1'),
         'SPINO': deframers.spino_deframer,
         'QUBIK': deframers.qubik_deframer,
+        'Apogee': deframers.apogee_deframer,
         }
     _transport_hooks = {
         'KISS': transports.kiss_transport,
