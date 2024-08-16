@@ -1,0 +1,16 @@
+name: Kanyini
+norad: 98890
+alternative_names:
+  - SASAT1
+data:
+  &tlm Telemetry:
+    unknown
+transmitters:
+  9k6 FSK downlink:
+    frequency: 400.500e+6
+    modulation: FSK
+    baudrate: 9600
+    deviation: 5157
+    framing: Apogee
+    data:
+    - *tlm
